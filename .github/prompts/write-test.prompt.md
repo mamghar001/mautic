@@ -21,6 +21,7 @@ Good practices:
 - Make all new classes final by default. Including tests.
 - Provide property, param and return types. If not possible to use native types you can always specify the types in the docblock. Mautic uses PHPSTAN so be sure to add types so the PHPSTAN won't fail.
 - Use `$this->assertResponseIsSuccessful();` to assert successful requests.
+- Use PHPUNIT's data providers to test multiple scenarios in a single test method.
 
 Suggestions for AI:
 - Do not modify the production code unless requested. Always just modify the test code.
