@@ -105,9 +105,9 @@
     </FilesMatch>
 
     # Deny access via HTTP requests to all PHP files.
-    <FilesMatch "\.php$">
-        Require all denied
-    </FilesMatch>
+#    <FilesMatch "\.php$">
+#        Require all denied
+#    </FilesMatch>
 
     # Deny access via HTTP requests to composer files.
     <FilesMatch "^(composer\.json|composer\.lock)$">
@@ -129,10 +129,10 @@
     </FilesMatch>
 
     # Deny access via HTTP requests to all PHP files.
-    <FilesMatch "\.php$">
-        Order deny,allow
-        Deny from all
-    </FilesMatch>
+#    <FilesMatch "\.php$">
+#        Order deny,allow
+#        Deny from all
+#    </FilesMatch>
 
     # Deny access via HTTP requests to composer files
     <FilesMatch "^(composer\.json|composer\.lock)$">
