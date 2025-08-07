@@ -22,7 +22,8 @@
     },
   "require": {
     "composer/installers": "^1.11",
-    "mautic/core-lib": "^6.0"
+    "mautic/core-lib": "^6.0",
+    "symfony/redis-messenger": "^5.4"
   },
   "require-dev": {
     "codeception/codeception": "^5.1",
